@@ -1,0 +1,23 @@
+{
+  "name": "quick-node-setup",
+  "version": "1.0.1",
+  "main": "index.js",
+  "bin": {
+    "quick-node-setup": "./index.mjs"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.3.3"
+  }
+}
