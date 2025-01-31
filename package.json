@@ -1,18 +1,19 @@
 {
   "name": "quick-node-setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "bin": {
     "quick-node-setup": "./index.mjs"
   },
   "type": "module",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "setup", "cli", "automation", "developer-tools","express","typescript","javascript","nodejs"],
+  "author": "Gautam Kumar",
   "license": "ISC",
-  "description": "",
+  "description": "A CLI tool for quick Node.js project setup",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",

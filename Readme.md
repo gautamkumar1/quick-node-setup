@@ -6,11 +6,10 @@
 ## Problem Solved
 Setting up a new Node.js and Express project from scratch can be time-consuming and repetitive. Developers often need to configure the folder structure, set up basic server files, and create a Dockerfile manually for production deployment. `quick-node-setup` eliminates this hassle by automating the entire setup process, ensuring best practices are followed from the beginning.
 
-## How to Use
-Install the package:
+## 📌 Installation
+To install globally, use:
 ```sh
-npm i quick-node-setup
-```
+npm i -g quick-node-setup
 
 Create a new project:
 ```sh
